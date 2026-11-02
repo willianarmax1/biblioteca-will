@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE svg
+  PUBLIC '-//W3C//DTD SVG 1.0//EN'
+  'http://www.w3.org/TR/2001/REC-SVG-20010904/DTD/svg10.dtd'>
+<svg width="490" height="230" preserveAspectRatio="xMinYMin meet" viewBox="0 0 490 230" xmlns="http://www.w3.org/2000/svg" version="1.0" fill-rule="evenodd" xmlns:xlink="http://www.w3.org/1999/xlink">
+	<title>...</title>
+	<desc>...</desc>
+	<clipPath id="clip">
+		<rect x="0" y="0" width="490" height="230"/>
+	</clipPath>
+	<g id="group" transform="scale(1,-1) translate(0,-230)" style="clip-path: url(#clip)">
+		<g transform="">
+			<rect x="130" y="7" width="350" height="215" rx="7" ry="0" style="stroke: rgb(25%,45%,23%); stroke-linecap: butt; stroke-width: 1; fill: rgb(100%,100%,100%); fill-rule: evenodd;"/>
+			<text x="144" y="204" style="font-family: DVB; font-size: 10px;fill: rgb(25%,45%,23%); stroke:none;" transform="translate(0,408) scale(1,-1)">CineArquivo</text>
+			<circle cx="42" cy="142" r="12" style="stroke: rgb(9%,13%,11%); stroke-linecap: butt; stroke-width: 1; fill: rgb(100%,100%,100%); fill-rule: evenodd;"/>
+			<path d="M 42,130 L 42,92 Z" style="stroke: rgb(9%,13%,11%); stroke-linecap: butt; stroke-width: 1;"/>
+			<path d="M 20,115 L 64,115 Z" style="stroke: rgb(9%,13%,11%); stroke-linecap: butt; stroke-width: 1;"/>
+			<path d="M 42,92 L 23,67 Z" style="stroke: rgb(9%,13%,11%); stroke-linecap: butt; stroke-width: 1;"/>
+			<path d="M 42,92 L 61,67 Z" style="stroke: rgb(9%,13%,11%); stroke-linecap: butt; stroke-width: 1;"/>
+			<text x="16" y="48" style="font-family: DV; font-size: 9px;fill: rgb(0%,0%,0%); stroke:none;" transform="translate(0,96) scale(1,-1)">Usuário</text>
+			<path d="M 65,113 L 182,175 Z" style="stroke: rgb(64%,71%,60%); stroke-linecap: butt; stroke-width: 0.6;"/>
+			<ellipse cx="317.0" cy="175.0" rx="132.0" ry="14.0" style="stroke: rgb(25%,45%,23%); stroke-linecap: butt; stroke-width: 0.6; fill: rgb(93%,95%,90%); fill-rule: evenodd;"/>
+			<text x="286.11328125" y="172" style="font-family: DV; font-size: 8px;fill: rgb(0%,0%,0%); stroke:none;" transform="translate(0,344) scale(1,-1)">Cadastrar filme</text>
+			<path d="M 65,113 L 182,138 Z" style="stroke: rgb(64%,71%,60%); stroke-linecap: butt; stroke-width: 0.6;"/>
+			<ellipse cx="317.0" cy="138.0" rx="132.0" ry="14.0" style="stroke: rgb(25%,45%,23%); stroke-linecap: butt; stroke-width: 0.6; fill: rgb(93%,95%,90%); fill-rule: evenodd;"/>
+			<text x="263.849609375" y="135" style="font-family: DV; font-size: 8px;fill: rgb(0%,0%,0%); stroke:none;" transform="translate(0,270) scale(1,-1)">Listar e consultar detalhes</text>
+			<path d="M 65,113 L 182,101 Z" style="stroke: rgb(64%,71%,60%); stroke-linecap: butt; stroke-width: 0.6;"/>
+			<ellipse cx="317.0" cy="101.0" rx="132.0" ry="14.0" style="stroke: rgb(25%,45%,23%); stroke-linecap: butt; stroke-width: 0.6; fill: rgb(93%,95%,90%); fill-rule: evenodd;"/>
+			<text x="287.3984375" y="98" style="font-family: DV; font-size: 8px;fill: rgb(0%,0%,0%); stroke:none;" transform="translate(0,196) scale(1,-1)">Buscar e filtrar</text>
+			<path d="M 65,113 L 182,64 Z" style="stroke: rgb(64%,71%,60%); stroke-linecap: butt; stroke-width: 0.6;"/>
+			<ellipse cx="317.0" cy="64.0" rx="132.0" ry="14.0" style="stroke: rgb(25%,45%,23%); stroke-linecap: butt; stroke-width: 0.6; fill: rgb(93%,95%,90%); fill-rule: evenodd;"/>
+			<text x="279.201171875" y="61" style="font-family: DV; font-size: 8px;fill: rgb(0%,0%,0%); stroke:none;" transform="translate(0,122) scale(1,-1)">Editar informações</text>
+			<path d="M 65,113 L 182,27 Z" style="stroke: rgb(64%,71%,60%); stroke-linecap: butt; stroke-width: 0.6;"/>
+			<ellipse cx="317.0" cy="27.0" rx="132.0" ry="14.0" style="stroke: rgb(25%,45%,23%); stroke-linecap: butt; stroke-width: 0.6; fill: rgb(93%,95%,90%); fill-rule: evenodd;"/>
+			<text x="267.626953125" y="24" style="font-family: DV; font-size: 8px;fill: rgb(0%,0%,0%); stroke:none;" transform="translate(0,48) scale(1,-1)">Excluir com confirmação</text>
+		</g>
+	</g>
+</svg>

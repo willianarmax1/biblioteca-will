@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE svg
+  PUBLIC '-//W3C//DTD SVG 1.0//EN'
+  'http://www.w3.org/TR/2001/REC-SVG-20010904/DTD/svg10.dtd'>
+<svg width="490" height="280" preserveAspectRatio="xMinYMin meet" viewBox="0 0 490 280" xmlns="http://www.w3.org/2000/svg" version="1.0" fill-rule="evenodd" xmlns:xlink="http://www.w3.org/1999/xlink">
+	<title>...</title>
+	<desc>...</desc>
+	<clipPath id="clip">
+		<rect x="0" y="0" width="490" height="280"/>
+	</clipPath>
+	<g id="group" transform="scale(1,-1) translate(0,-280)" style="clip-path: url(#clip)">
+		<g transform="">
+			<rect x="0" y="164" width="220" height="105" rx="5" ry="0" style="stroke: rgb(25%,45%,23%); stroke-linecap: butt; stroke-width: 0.8; fill: rgb(93%,95%,90%); fill-rule: evenodd;"/>
+			<text x="10" y="252" style="font-family: DVB; font-size: 9px;fill: rgb(9%,13%,11%); stroke:none;" transform="translate(0,504) scale(1,-1)">FilmeServlet</text>
+			<path d="M 0,244 L 220,244 Z" style="stroke: rgb(25%,45%,23%); stroke-linecap: butt; stroke-width: 0.5;"/>
+			<text x="10" y="229" style="font-family: DV; font-size: 7.3px;fill: rgb(9%,13%,11%); stroke:none;" transform="translate(0,458) scale(1,-1)">+ doGet(request, response) : void</text>
+			<text x="10" y="217" style="font-family: DV; font-size: 7.3px;fill: rgb(9%,13%,11%); stroke:none;" transform="translate(0,434) scale(1,-1)">+ doPost(request, response) : void</text>
+			<text x="10" y="205" style="font-family: DV; font-size: 7.3px;fill: rgb(9%,13%,11%); stroke:none;" transform="translate(0,410) scale(1,-1)">Controle de requisições HTTP</text>
+			<rect x="0" y="36" width="220" height="105" rx="5" ry="0" style="stroke: rgb(25%,45%,23%); stroke-linecap: butt; stroke-width: 0.8; fill: rgb(93%,95%,90%); fill-rule: evenodd;"/>
+			<text x="10" y="124" style="font-family: DVB; font-size: 9px;fill: rgb(9%,13%,11%); stroke:none;" transform="translate(0,248) scale(1,-1)">FilmeService</text>
+			<path d="M 0,116 L 220,116 Z" style="stroke: rgb(25%,45%,23%); stroke-linecap: butt; stroke-width: 0.5;"/>
+			<text x="10" y="101" style="font-family: DV; font-size: 7.3px;fill: rgb(9%,13%,11%); stroke:none;" transform="translate(0,202) scale(1,-1)">+ validar(Filme) : List&lt;String&gt;</text>
+			<text x="10" y="89" style="font-family: DV; font-size: 7.3px;fill: rgb(9%,13%,11%); stroke:none;" transform="translate(0,178) scale(1,-1)">+ salvar(Filme) : boolean</text>
+			<text x="10" y="77" style="font-family: DV; font-size: 7.3px;fill: rgb(9%,13%,11%); stroke:none;" transform="translate(0,154) scale(1,-1)">+ buscar(termo, gênero, ordem) : List</text>
+			<rect x="270" y="36" width="220" height="105" rx="5" ry="0" style="stroke: rgb(25%,45%,23%); stroke-linecap: butt; stroke-width: 0.8; fill: rgb(93%,95%,90%); fill-rule: evenodd;"/>
+			<text x="280" y="124" style="font-family: DVB; font-size: 9px;fill: rgb(9%,13%,11%); stroke:none;" transform="translate(0,248) scale(1,-1)">FilmeDAO</text>
+			<path d="M 270,116 L 490,116 Z" style="stroke: rgb(25%,45%,23%); stroke-linecap: butt; stroke-width: 0.5;"/>
+			<text x="280" y="101" style="font-family: DV; font-size: 7.3px;fill: rgb(9%,13%,11%); stroke:none;" transform="translate(0,202) scale(1,-1)">+ buscar(...) : List&lt;Filme&gt;</text>
+			<text x="280" y="89" style="font-family: DV; font-size: 7.3px;fill: rgb(9%,13%,11%); stroke:none;" transform="translate(0,178) scale(1,-1)">+ encontrar(id) : Optional&lt;Filme&gt;</text>
+			<text x="280" y="77" style="font-family: DV; font-size: 7.3px;fill: rgb(9%,13%,11%); stroke:none;" transform="translate(0,154) scale(1,-1)">+ salvar(Filme) / excluir(id) : boolean</text>
+			<rect x="270" y="164" width="220" height="105" rx="5" ry="0" style="stroke: rgb(25%,45%,23%); stroke-linecap: butt; stroke-width: 0.8; fill: rgb(93%,95%,90%); fill-rule: evenodd;"/>
+			<text x="280" y="252" style="font-family: DVB; font-size: 9px;fill: rgb(9%,13%,11%); stroke:none;" transform="translate(0,504) scale(1,-1)">Filme</text>
+			<path d="M 270,244 L 490,244 Z" style="stroke: rgb(25%,45%,23%); stroke-linecap: butt; stroke-width: 0.5;"/>
+			<text x="280" y="229" style="font-family: DV; font-size: 7.3px;fill: rgb(9%,13%,11%); stroke:none;" transform="translate(0,458) scale(1,-1)">- id : Long; titulo, diretor : String</text>
+			<text x="280" y="217" style="font-family: DV; font-size: 7.3px;fill: rgb(9%,13%,11%); stroke:none;" transform="translate(0,434) scale(1,-1)">- ano, avaliacao : int</text>
+			<text x="280" y="205" style="font-family: DV; font-size: 7.3px;fill: rgb(9%,13%,11%); stroke:none;" transform="translate(0,410) scale(1,-1)">- genero, sinopse : String</text>
+			<text x="280" y="193" style="font-family: DV; font-size: 7.3px;fill: rgb(9%,13%,11%); stroke:none;" transform="translate(0,386) scale(1,-1)">+ getters / setters</text>
+			<path d="M 110,164 L 110,141 Z" style="stroke: rgb(25%,45%,23%); stroke-linecap: butt; stroke-width: 1;"/>
+			<path d="M 110,141 L 107,146 Z" style="stroke: rgb(25%,45%,23%); stroke-linecap: butt; stroke-width: 1;"/>
+			<path d="M 110,141 L 113,146 Z" style="stroke: rgb(25%,45%,23%); stroke-linecap: butt; stroke-width: 1;"/>
+			<path d="M 220,86 L 270,86 Z" style="stroke: rgb(25%,45%,23%); stroke-linecap: butt; stroke-width: 1;"/>
+			<path d="M 270,86 L 265,89 Z" style="stroke: rgb(25%,45%,23%); stroke-linecap: butt; stroke-width: 1;"/>
+			<path d="M 270,86 L 265,83 Z" style="stroke: rgb(25%,45%,23%); stroke-linecap: butt; stroke-width: 1;"/>
+			<path d="M 380,141 L 380,164 Z" style="stroke: rgb(25%,45%,23%); stroke-linecap: butt; stroke-width: 1;"/>
+			<path d="M 380,164 L 377,159 Z" style="stroke: rgb(25%,45%,23%); stroke-linecap: butt; stroke-width: 1;"/>
+			<path d="M 380,164 L 383,159 Z" style="stroke: rgb(25%,45%,23%); stroke-linecap: butt; stroke-width: 1;"/>
+		</g>
+	</g>
+</svg>

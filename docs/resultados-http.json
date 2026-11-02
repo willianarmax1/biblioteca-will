@@ -1,0 +1,25 @@
+{
+  "aprovados": 20,
+  "verificacoes": [
+    "JSP de listagem compilada e respondendo",
+    "Formulário e token CSRF",
+    "Cadastro e redirecionamento para detalhes",
+    "HTML do usuário escapado",
+    "JSP de edição",
+    "Busca por diretor com filtro",
+    "Busca SQL maliciosa sem retorno indevido",
+    "Ano inválido retorna 422",
+    "Token incorreto bloqueado com 403",
+    "Exclusão sem token bloqueada",
+    "Confirmação não exclui por GET",
+    "Registro preservado após confirmação GET",
+    "Edição persistida",
+    "JSP sobre",
+    "Registro ausente retorna 404",
+    "ID inválido retorna 400",
+    "Página ausente retorna 404",
+    "CSS disponível",
+    "Exclusão confirmada",
+    "Registro excluído não é localizado"
+  ]
+}

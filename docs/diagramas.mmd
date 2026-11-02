@@ -1,0 +1,57 @@
+flowchart TB
+  U["Usuário"] --> L["Listar e consultar detalhes"]
+  U --> C["Cadastrar filme"]
+  U --> E["Editar filme"]
+  U --> X["Excluir com confirmação"]
+  U --> B["Buscar e filtrar"]
+
+classDiagram
+  class Filme {
+    -Long id
+    -String titulo
+    -String diretor
+    -int ano
+    -String genero
+    -String sinopse
+    -int avaliacao
+    +getTitulo() String
+    +setTitulo(String)
+  }
+  class FilmeServlet {
+    +doGet(request,response)
+    +doPost(request,response)
+  }
+  class FilmeService {
+    +validar(Filme) List
+    +salvar(Filme) boolean
+    +buscar(termo,genero,ordem) List
+  }
+  class FilmeDAO {
+    +buscar(termo,genero,ordem) List
+    +encontrar(id) Optional
+    +salvar(Filme) boolean
+    +excluir(id) boolean
+  }
+  class Database {
+    +open() Connection
+    +initialize()
+  }
+  FilmeServlet --> FilmeService
+  FilmeService --> FilmeDAO
+  FilmeDAO --> Database
+  FilmeDAO --> Filme
+
+erDiagram
+  FILMES {
+    BIGINT id PK
+    VARCHAR titulo
+    VARCHAR diretor
+    INTEGER ano
+    VARCHAR genero
+    VARCHAR sinopse
+    INTEGER avaliacao
+  }
+  APP_META {
+    VARCHAR chave PK
+    VARCHAR valor
+  }

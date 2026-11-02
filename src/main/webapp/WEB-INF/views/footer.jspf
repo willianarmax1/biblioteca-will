@@ -1,0 +1,2 @@
+<%@ page pageEncoding="UTF-8" %>
+</main><footer class="footer"><a class="brand footer-brand" href="<%=base%>/filmes">Biblioteca<span class="footer-will">Will</span></a><p>Acervo de Willian Damaceno Fernandes.</p><span>Ciência da Computação · Cruzeiro do Sul · 2026</span></footer></body></html>
